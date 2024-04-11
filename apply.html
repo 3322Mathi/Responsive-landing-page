@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>responsive web</title>
+        <link href="res.css" rel="stylesheet" />
+    </head>
+    <style>
+        body{
+            
+           background:radial-gradient(red,blue,yellow);
+          
+            background-size: cover;
+           
+           
+           
+        }
+        #places{
+            margin: 10px;
+        }
+        button{
+            margin: 10px;
+        }
+    </style>
+    <body>
+       
+        <form action="#" autocomplete="off"> 
+            <h1>Online booking for travelling</h1>
+            <label for="user_name" class="block">user name</label>
+            <input id="user_name" type="text">
+            <label for="email" class="block">E-mail</label>
+            <input id="email" type="text">
+            <legend>Gender</legend>
+            <label  style="color: white;"><input id="gen" type="radio" name="gender" value="male">Male</label>
+            <label  style="color: white;"><input id="gen" type="radio" name="gender" value="female">Female</label>
+            <label for="course" class="block">select course</label>
+            <select id="places">
+                <option value="">select place</option>
+                <option value="html">MANALI</option>
+                <option value="css">DELHI</option>
+                <option value="js">JAIPUT</option>
+            </select>
+            <br/>
+            <input type="checkbox" id="agree">
+            <label style="color: white;"  for="agree">i agree all condition</label>
+            <br/>
+            <button class="btnsub">submit</button>
+            <button class="btnreset">reset</button>
+
+
+       </form>
+       
+    </body>
+    </html>

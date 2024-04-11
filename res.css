@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("4K-Travel-HD-Wallpaper-Computer.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100%;
+}
+
+.logo{
+    font-family: "Whisper", cursive;;
+    color: rebeccapurple;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+nav{
+    background-color: olive;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+       
+}
+nav a{
+    text-decoration: none; 
+}
+.menu{
+    width: 20px;
+    height: 3px;
+    display: block;
+    background-color: black;
+    margin-bottom: 5px;
+    margin-left: 400px;
+    display: none;
+    cursor: pointer;    
+}
+a:hover{
+    color: whitesmoke;
+}
+@media all and (max-width:640px){
+    nav{
+        flex-direction: column;
+    }
+    nav li{
+        display: block;
+        padding: 10px 0;
+    }
+    
+    ul{
+        text-align: center;
+        padding: 0;
+        display: none;
+        
+    }
+    .menu{
+        display:block;
+        position: absolute;
+        top: 25px;
+        right: 20px;  
+    }
+    .show{
+        display: block;
+    }
+    p{
+        color: white;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        width: 100%;
+    }
+    }
+    p{
+        color: white;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        width: 100%;
+    }
+    h2{
+        color: whitesmoke;
+    }
+    /* ----------------*/
+    .block{
+        display: block;
+        color: white;
+    }
+    form{
+       
+        padding: 40px;
+        text-align: center;
+    }
+    .btn{
+        margin: 10px;
+        color: white;
+        background-color: blue;
+    }
+
+   
+
